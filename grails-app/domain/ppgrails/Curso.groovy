@@ -5,7 +5,7 @@ class Curso {
 	Long id
 
 	String nome
-	String instituição
+	String instituicao
 	String vagas
 
 	def relatesToMany = [ cursos : Curso ]
