@@ -81,6 +81,14 @@
 		</style>
 	</head>
 	<body>
+		
+		<h1>Buscar</h1>
+		<div class="serachForm">
+			<g:form controller="searchable">
+				<g:textField name="q" value="" />
+			</g:form>
+		</div>
+
 		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 		<div id="status" role="complementary">
 			<h1>Application Status</h1>
