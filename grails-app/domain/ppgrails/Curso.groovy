@@ -7,8 +7,6 @@ class Curso {
 	String nome
 	String instituicao
 	String vagas
-	static searchable = true
-	//static searchable = [only: 'nome']
 
 	def relatesToMany = [ cursos : Curso ]
 
