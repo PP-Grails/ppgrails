@@ -59,7 +59,7 @@ grails.project.dependency.resolution = {
         build ":tomcat:$grailsVersion"
 
         runtime ":database-migration:1.3.2"
-
+       // compile ":jquery-validation-ui:latest.release"
         compile ':cache:1.0.1'
      //   compile ":twitter-bootstrap:3.2.0.2"
     }

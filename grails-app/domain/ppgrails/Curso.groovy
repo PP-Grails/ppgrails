@@ -10,9 +10,9 @@ class Curso {
 	static searchable = true
 	//static searchable = [only: 'nome']
 
-	def relatesToMany = [ cursos : Curso ]
+	def relatesToMany = [ curso : Curso ]
 
-         Set cursos = new HashSet()
+         Set curso = new HashSet()
 
  
 

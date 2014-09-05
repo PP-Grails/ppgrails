@@ -11,9 +11,9 @@ class Instituicao {
 	String telefone
 	String email
 
-	def relatesToMany = [ intituicoes : Instituicao ]
+	def relatesToMany = [ intituicao : Instituicao ]
 
-         Set instituicoes = new HashSet()
+         Set instituicao = new HashSet()
 
  
 
